@@ -12,7 +12,7 @@ Mi intención es que a cada nota (o nota cercana) se le asocie una luz en concre
 
 Suena la melodía "JoJo's Bizarre Adventure: Golden Wind OST: ~Giorno's Theme ~ Il vento d'oro" a través del SPEAKER (GPIO 4), de manera que a cada nota se le asocie una led diferente (GPIO 9, 10, 11, 17, 22, 27). Dicha canción se emite estableciendo las frecuencias de las distintas notas de la melodía. Mi intención es asociar a cada nota un led distinto y de manera que una nota grave tenga una led asociada más a la izquierda y las notas mas agudas luces más a la derecha. De esta manera quiero que se asemeje a lo que es un teclado o piano.
 
-En el documento "notas.inc" establezco los valores de realizar la operación (1000000/Freq) donde 'Freq' es la frecuencia de cada una de las notas utilizadas en la canción. Además, establezco los distintos ritmos que se pueden encontrar en la melodía (Negras, Blancas, Semicorcheas, etc).
+En el documento ``` notas.inc```  establezco los valores de realizar la operación (1000000/Freq) donde 'Freq' es la frecuencia de cada una de las notas utilizadas en la canción. Además, establezco los distintos ritmos que se pueden encontrar en la melodía (Negras, Blancas, Semicorcheas, etc).
 
 En el documento "Melodia.inc" hago dos arrays o listas: una consiste en la melodía de la canción incluyendo silencios y otra lista corresponde con el ritmo o duración de cada elemento del array de las notas.
 
