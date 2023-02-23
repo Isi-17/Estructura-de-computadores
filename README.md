@@ -5,7 +5,7 @@ https://youtu.be/o5ss09l_cd4
 
 INTENCIÓN DE PROYECTO:
 
-Voy a intentar reproducir la canción "JoJo's Bizarre Adventure:Golden Wind OST: Giorno's Theme "Il vento d'oro" (Main Theme)" (https://www.youtube.com/watch?v=2MtOpB5LlUA&ab_channel=GoldenWeed)
+Voy a intentar reproducir la canción "JoJo's Bizarre Adventure:Golden Wind OST: Giorno's Theme "Il vento d'oro" (Main Theme)" (https://youtu.be/U0TXIXTzJEY)
 
 Mi intención es que a cada nota (o nota cercana) se le asocie una luz en concreto y que al cambiar el sonido cambie el led (como si fuera un piano)
 Utilizaré interrupciones para que, pulsando un botón pueda pausar la canción, y pulsando de nuevo (o pulsando otro) se reproduzca de nuevo. (con rutinas de tratamiento IRQ y FIQ)
