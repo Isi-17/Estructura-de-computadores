@@ -24,7 +24,9 @@ El fin del tratamiento de la interrupción IRQ consiste en que si el PUSH_BUTTON
 
 El fin de tratamiento de la interrupción FIQ consiste en programar el retardo o pausa según el valor de la variable 'indice'.
 
-En cuanto a dificultades durante la realización del proyecto, como la rapsberry emite el sonido el tiempo que viene dado por el ritmo asociado (negra, blanca),
+En cuanto a dificultades durante la realización del proyecto, como la rapsberry emite el sonido el tiempo que viene dado por el ritmo asociado (negra, blanca), dura exactamente el tiempo de cada uno de los ritmos, de manera que si tengo la misma nota con una duración x, se escuchará la nota con una duración 2x. Por eso he declarado un nuevo ritmo denominado 'SEPARANOTAS' con un tiempo de 0,008 segundos de manera que se note una separación entre las notas que son iguales y se encuentran consecutivas entre sí.
+
+También he tenido alguna dificultad no importante como que el array tanto de notas como de duraciones se leía de arriba a abajo (más intuitivo) y el array de las bombillas (LEDS) se recorre de abajo a arriba. Sin embargo no lo he modificado y eso me ha supuesto algunos quebraderos de cabeza al sincronizar qué bombilla asociar a cada sonido de la canción.
 
 ENLACE AL VIDEO DEMO:
 
